@@ -1,0 +1,602 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+/*CSS index*/
+
+
+.bartitle{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    position: absolute;
+    right: 10px;
+    top: -52px;
+}
+
+.nav-link-direita {
+    margin-left: 1050px;
+}
+
+.fundoimagem {
+    width: 250px;
+    height: 700px;
+    background: fixed;
+}
+
+.rectangleaolado{
+    width: 550px;
+    height: 1000px;
+    background-color: #2B2B2B;
+}
+
+.rectangulo {
+    width: 1519px;
+    height: 100px;
+    background-color: #57453A;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+  }
+
+  .texto {
+    position: absolute;
+    font-size: 70px; 
+    left: 90px; 
+    top: 600px;
+    color: black;
+    -webkit-text-stroke: 0.9px rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .rectangulo2 {
+    width: 1519px;
+    height: 120px;
+    background-color: #FEEFE5;
+    position: relative;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
+  }
+
+  .palavra2 {
+    position: absolute;
+    top: 30px; 
+    left: 50px; 
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .retangulobranco {
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .square {
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+  }
+  
+  .square img {
+    width: 105%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px;
+    border: 1px solid #333;
+  }
+
+  footer {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+
+  /* CSS Login - fonte (W3Shools): https://www.w3schools.com/howto/howto_css_login_form.asp */
+
+  .body1 {
+    background-image: url("Imagens/fundologin1.jpg");
+    background-repeat: no-repeat;
+    background-position: -50px 5px;
+    background-size: 1600px;
+  }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 1px solid #f1f1f1;}
+
+
+input[type=text], input[type=password] {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 25%;
+  height: 30%;
+  width: 50%;
+  padding: 12px 50px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #D9D9D9;
+  color: rgb(0, 0, 0);
+  padding: 14px 30px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 50px 0;
+  position: relative;
+  left: 130px;
+  top: 30px;
+  width: 250px;
+}
+
+img.avatar {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 10px;
+}
+
+span.psw {
+  float: center;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.rectangulobranco {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin-left: 500px;
+  margin-right: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
+}
+
+.Textobemvido{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5); 
+}
+
+/* CSS Condições */
+
+.Img_caogato{
+ padding-left: 600px;
+}
+
+.textotitulo{
+  font-size: 45px;
+  font-family:'Courier New', Courier, monospace;
+position: relative;
+right: 50px;
+top: 350px;
+font-size:5vw;
+}
+
+.textocorrido{
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 280px;
+  right: 100px;
+}
+
+.textocondições1{
+  text-align: justify;
+  margin: 0px 450px 150px 100px;
+  font-size: 20px;
+}
+
+.textoimagem1{
+  position: absolute;
+  right: 150px;
+  top: 700px;
+}
+
+.textoimagem2{
+  position: absolute;
+  right: 130px;
+  top: 1010px;
+}
+
+.textoimagem3{
+  position: absolute;
+  right: 180px;
+  top: 1250px;
+}
+
+.textoimagem4{
+  position: absolute;
+  right: 130px;
+  top: 1470px;
+}
+
+.textoimagem5{
+  position: absolute;
+  right: 110px;
+  top: 1750px;
+}
+
+.textoimagem6{
+  position: absolute;
+  right: 200px;
+  top: 2090px;
+}
+
+.textofinal{
+  font-size: 50px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #57453A;
+  font-weight: bold;
+}
+
+.tituloh2{
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  top:100px;
+  }
+
+/* CSS Adoção (cão) */
+
+.botãocão {
+  background-color: #515151;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  width: 49.5%;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.botãogato {
+  background-color: #fdfdfd;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border: 1px solid #000000;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.nomeanimal1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  position: absolute;
+  right: 900px;
+  font-weight: bold;
+}
+
+.nomeanimal2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  position: absolute;
+  right: 1010px;
+  font-weight: bold;
+}
+
+.nomeanimal3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  position: absolute;
+  right: 1010px;
+  font-weight: bold;
+}
+
+.retangle1{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  top: 550px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+}
+
+.retangle2{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  top: 1160px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+}
+
+.retangle3{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  top: 1760px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+}
+
+.retangle4{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  top: 2380px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+}
+
+table, th,td, td { /* https://www.w3schools.com/html/html_table_borders.asp */
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: right;
+  margin-top: 410px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* CSS Adoção (gato) */
+
+.botão1ga {
+  background-color: #515151;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  width: 49.5%;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.botão1ca {
+  background-color: #fdfdfd;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border: 1px solid #000000;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.nomeanimal4{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 45px;
+  position: absolute;
+  right: 865px;
+  font-weight: bold;
+}
+
+/* CSS Saúde */
+
+ .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-right {
+  background-color: #B39B8C;
+  color: white;
+  padding: 10px;
+  flex: 20%;
+  border-radius: 30px;
+}
+
+ol, ul {
+  padding-left: 0px;
+}
+
+ #retangulobrown { /*https://www.w3schools.com/css/css3_borders.asp*/
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 700px;
+  right: -150px;
+  border-radius: 25px;
+  background: #B39B8C;
+  padding: 20px; 
+  width: 1217px;
+  height: 210px;  
+  font-size: 30px;
+}
+
+#rcorners1texto{
+  font-size: 18px;
+position: absolute;
+top: 860px;
+right: 185px;
+text-align: center;
+color: white;
+} 
+
+#rcorners1texto2{
+  font-size: 18px;
+position: absolute;
+top: 1200px;
+right: 220px;
+text-align: center;
+color: white;
+} 
+
+.buttoncondições{
+background-color: #57453A;
+color: white;
+text-decoration:underline;
+width: 200px;
+height: 50px;
+position: relative;
+top: 610px;
+right: -655px;
+}
+
+/* CSS Sobre */
+
+.quadradoos2 {
+  background: #7A6355;
+  display: flex;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 20px; 
+  width: 1371px;
+  height: 1350px;  
+}
+
+.Img_caogato2{
+  text-align: right;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+ }
+ 
+.elementstylesobre{
+ background-color: #7A6355;
+ width: 1518px;
+ height: 1282px;
+}
+
+
+ /*CSS Noticias*/
+
+ .textocondições5{
+  text-align: center;
+  margin: 50px 1200px 90px 100px;
+  font-size: 20px;
+}
+.buttonnoticia{
+    background-color: #57453A;
+    text-align: center;
+    position: relative;
+    left: 60px;
+}
+
+ /*CSS Contactos*/
+
+ .Img_caogato3{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  right: 70px;
+  top: 90px;
+ }
+
+ .textocondições6{
+  text-align: center;
+  margin: 10px 1500px 0px 30px;
+  font-size: 20px;
+}
+
+/*https://www.w3schools.com/cssref/css3_pr_align-items.php*/
+
+li {
+list-style-type: none;
+}
+
+.row{
+gap: 15px;
+position: relative;
+left: -50px;
+}
+
+.col1{
+  gap: 15px;
+
+}
+
+/* CSS Perguntas Frequentes*/
+
+.img-fluid{
+  max-width: 80%;
+    height: auto;
+}
